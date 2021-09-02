@@ -112,11 +112,17 @@ header{
     margin:auto;
 }
 .portfolio{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    text-align:center;
+    justify-self:center;
+}
+.port2{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    flex-flow: row;
     text-align: center;
-    margin:auto;
+    justify-content: space-evenly;
     justify-self: center;
 }
 /* footer section style */
