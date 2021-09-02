@@ -83,7 +83,6 @@ a:hover{
 }
 
 
-
 /* Header section styles */
 header{
     background-color:#F5F5F5;
@@ -116,12 +115,10 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-}
-.examples{
     text-align: center;
+    margin:auto;
+    justify-self: center;
 }
-
-
 /* footer section style */
 
 .footer{
