@@ -65,10 +65,15 @@ h1{
     font-size: 4rem;
 }
 h2{
-    font-size: 3rem;   
+    font-size: 3rem;
+    margin-bottom: 2%;   
 }
 h3{
     font-size: 2rem;
+    margin-bottom: 2%;
+}
+p{
+    margin-top: 2%;
 }
 section{
     padding: 4% 0;
@@ -77,6 +82,9 @@ a{
     text-decoration: none;
     letter-spacing: 1px;
     color: #7B68EE ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
 }
 a:hover{
     color:#40E0D0;
@@ -132,4 +140,14 @@ header{
     align-items:center;
     text-align:center;
     padding:2%;
+}
+
+@media (max-width: 800px) {
+    nav {
+    display: flex;
+    flex-direction: column;
+}
+}
+@media (max-width:500px) {
+
 }
